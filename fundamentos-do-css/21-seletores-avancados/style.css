@@ -1,0 +1,39 @@
+li:nth-child(2) {
+    color: aqua;
+}
+
+li:nth-child(1n) {
+    color: #00f;
+
+}
+
+li:hover {
+ color: #020202;
+}
+    
+li:first-child {
+    color: rgb(255, 174, 0);
+}
+
+li:last-child {
+    color: rgb(255, 0, 179);
+}
+
+li:not(:first-child) {
+    color: rgb(0, 255, 255);
+}
+
+
+
+li::before {
+  content: "(antes) ";
+  color: #020202;
+}
+
+
+
+
+li::after {
+  content: " (depois)";
+  color: #020202;
+}

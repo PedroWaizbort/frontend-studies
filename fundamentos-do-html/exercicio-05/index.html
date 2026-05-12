@@ -1,0 +1,53 @@
+<html>
+    <head><title>Formulário de Inscrição</title></head>
+    <body>
+        <h1>Formulário de Inscrição</h1>
+         
+        <form>
+
+        <div>
+          <label for="nome">Nome:</label><br>
+          <input type="text" nome="nome" id="nome" required><br><br>
+        </div>
+       
+        <div>
+        <label for="email">Email:</label><br>
+        <input type="email" nome="email" id="email" required><br><br>
+        </div>
+
+        <div>
+        <label for="celular">WhatsApp:</label><br>
+        <input type="tel" nome="celular" id="celular"><br><br>
+        </div>
+
+
+      <div>
+        <label>Área de Atuação:</label><br>
+
+          <input type="radio" name="area" id="Desenvolvimento" value="Desenvolvimento">
+          <label for="Desenvolvimento">Desenvolvimento</label>
+
+          <input type="radio" name="area" id="QA" value="QA">
+          <label for="QA">Quality Assurance (QA)</label>
+
+          <input type="radio" name="area" id="Dados" value="Dados">
+          <label for="Dados">Análise de Dados</label>
+
+          <input type="radio" name="area" id="Infra" value="Infra">
+          <label for="Infra">Infraestrutura</label> <br><br>
+      </div>  
+
+    <div>
+     <label for="obs">Observações:</label><br>
+     <textarea name="obs" id="obs"></textarea><br><br>
+     </div>
+
+     <input type="checkbox">
+     <label type="checkbox" name="notificações" id="notificações">Desejo receber novidades e ofertas por email.</label>
+     
+
+     <br><br>
+     <button type="submit">Enviar</button>
+     </form>
+    </body>
+</html>
